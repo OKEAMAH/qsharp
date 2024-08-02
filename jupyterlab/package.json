@@ -40,7 +40,7 @@
     "@codemirror/legacy-modes": "6.3.2",
     "@jupyterlab/application": "^4.0.0",
     "@jupyterlab/codemirror": "^4.0.0",
-    "@jupyterlab/notebook": "^4.0.0"
+    "@jupyterlab/notebook": "^4.2.3"
   },
   "jupyterlab": {
     "extension": true,
