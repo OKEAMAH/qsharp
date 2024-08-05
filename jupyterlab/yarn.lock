@@ -195,7 +195,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@codemirror/language@npm:6.9.1, @codemirror/language@npm:^6.0.0, @codemirror/language@npm:^6.3.0, @codemirror/language@npm:^6.4.0, @codemirror/language@npm:^6.6.0, @codemirror/language@npm:^6.8.0":
+"@codemirror/language@npm:6.10.2":
+  version: 6.10.2
+  resolution: "@codemirror/language@npm:6.10.2"
+  dependencies:
+    "@codemirror/state": ^6.0.0
+    "@codemirror/view": ^6.23.0
+    "@lezer/common": ^1.1.0
+    "@lezer/highlight": ^1.0.0
+    "@lezer/lr": ^1.0.0
+    style-mod: ^4.0.0
+  checksum: 4e60afb75fb56519f59d9d85e0aa03f0c8d017e0da0f3f8f321baf35a776801fcec9787f3d0c029eba12aa766fba98b0fe86fc3111b43e0812b554184c0e8d67
+  languageName: node
+  linkType: hard
+
+"@codemirror/language@npm:^6.0.0, @codemirror/language@npm:^6.3.0, @codemirror/language@npm:^6.4.0, @codemirror/language@npm:^6.6.0, @codemirror/language@npm:^6.8.0":
   version: 6.9.1
   resolution: "@codemirror/language@npm:6.9.1"
   dependencies:
@@ -256,6 +270,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@codemirror/state@npm:^6.4.0":
+  version: 6.4.1
+  resolution: "@codemirror/state@npm:6.4.1"
+  checksum: b81b55574091349eed4d32fc0eadb0c9688f1f7c98b681318f59138ee0f527cb4c4a97831b70547c0640f02f3127647838ae6730782de4a3dd2cc58836125d01
+  languageName: node
+  linkType: hard
+
 "@codemirror/view@npm:^6.0.0, @codemirror/view@npm:^6.17.0, @codemirror/view@npm:^6.9.6":
   version: 6.21.3
   resolution: "@codemirror/view@npm:6.21.3"
@@ -264,6 +285,17 @@ __metadata:
     style-mod: ^4.1.0
     w3c-keyname: ^2.2.4
   checksum: 7fda5a60e04fe1ac3d22ee478d4a90fc307953b8c900752ef5ca33af06c4e7851356e460f14b05034230b3a1677f36379ea01d85a3ea3b3a3e85e871ed62346a
+  languageName: node
+  linkType: hard
+
+"@codemirror/view@npm:^6.23.0":
+  version: 6.30.0
+  resolution: "@codemirror/view@npm:6.30.0"
+  dependencies:
+    "@codemirror/state": ^6.4.0
+    style-mod: ^4.1.0
+    w3c-keyname: ^2.2.4
+  checksum: 29792a4087a525a53694bfb4baffbc9ad9ecdeb44e508e1be54405fa5aafde3c79a4904db9d3102ac667903908ef9a28655ac655e0886e46d8d668f376e4ea2a
   languageName: node
   linkType: hard
 
@@ -2730,7 +2762,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "qsharp-jupyterlab@workspace:."
   dependencies:
-    "@codemirror/language": 6.9.1
+    "@codemirror/language": 6.10.2
     "@codemirror/legacy-modes": 6.3.2
     "@jupyterlab/application": ^4.0.0
     "@jupyterlab/builder": ^4.0.0
@@ -2845,7 +2877,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.20.0#~builtin<compat/resolve>":
   version: 1.22.6
-  resolution: "resolve@patch:resolve@npm%3A1.22.6#~builtin<compat/resolve>::version=1.22.6&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.6#~builtin<compat/resolve>::version=1.22.6&hash=07638b"
   dependencies:
     is-core-module: ^2.13.0
     path-parse: ^1.0.7
@@ -3141,7 +3173,7 @@ __metadata:
 
 "typescript@patch:typescript@^5.0.2#~builtin<compat/typescript>":
   version: 5.2.2
-  resolution: "typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=85af82"
+  resolution: "typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
