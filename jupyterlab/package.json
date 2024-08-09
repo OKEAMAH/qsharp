@@ -38,7 +38,7 @@
   "dependencies": {
     "@codemirror/language": "6.9.1",
     "@codemirror/legacy-modes": "6.3.2",
-    "@jupyterlab/application": "^4.0.0",
+    "@jupyterlab/application": "^4.2.4",
     "@jupyterlab/codemirror": "^4.0.0",
     "@jupyterlab/notebook": "^4.0.0"
   },
